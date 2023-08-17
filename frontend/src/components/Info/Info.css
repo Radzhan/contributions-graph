@@ -1,0 +1,73 @@
+.contributionInfo {
+  margin: 30px;
+  padding: 10px;
+  display: flex;
+}
+
+.less {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 10px;
+  text-align: left;
+  color: #959494;
+  margin-right: 11px;
+  margin-top: 4px;
+}
+
+
+.more {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 10px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #959494;
+  margin-left: 11px;
+  margin-top: 4px;
+}
+
+.contribution {
+  width: 15px;
+  height: 15px;
+  margin-left: 1px;
+  background-color: #ededed;
+  position: relative;
+}
+
+.contributionDate {
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+  background-color: #000;
+  color: #ffffff;
+  white-space: nowrap;
+  position: absolute;
+  z-index: 1;
+  bottom: 20px;
+  left: -50px;
+  font-size: 14px;
+}
+
+.contributionDate p {
+  margin: 0;
+}
+
+.contribution:hover .contributionDate {
+  display: block;
+}
+
+.more-0 {
+  background-color: #acd5f2;
+}
+
+.more-10 {
+  background-color: #7fa8c9;
+}
+
+.more-20 {
+  background-color: #527ba0;
+}
+
+.more-30 {
+  background-color: #254e77;
+}

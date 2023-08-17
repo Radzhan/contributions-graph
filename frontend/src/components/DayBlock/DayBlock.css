@@ -1,0 +1,51 @@
+.day-block {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+.day-block:hover {
+  border: 1px solid rgba(0, 0, 0, 0.50);
+}
+
+.day-block:active {
+  border: 1px solid rgba(0, 0, 0, 0.90);
+}
+
+.hint-block {
+  display: none;
+  position: absolute;
+  border-radius: 3px;
+  background: #000;
+  color: #fff;
+  padding: 5px 9px;
+  text-align: center;
+  z-index: 1;
+  top: -50px;
+  left: -450%;
+  white-space: nowrap;
+}
+
+
+.day-block:hover .hint-block {
+  display: block;
+}
+
+.day-block:active .hint-block {
+  display: block;
+}
+
+.hint-block-contribution {
+  color: #fff;
+  font-size: 12px;
+  margin: 0 0 4px;
+}
+
+.hint-block-date {
+  color: #7c7c7c;
+  font-size: 10px;
+  margin: 0;
+}

@@ -1,0 +1,34 @@
+.Graph-block {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 2px;
+  height: 117px;
+  width: 865px;
+  margin: auto;
+}
+
+.year-block {
+  display: flex;
+}
+
+.weeks {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  margin-right: 5px;
+}
+
+.weeks p {
+  color: #959494;
+  text-align: center;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
